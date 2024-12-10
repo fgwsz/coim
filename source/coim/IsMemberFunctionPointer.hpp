@@ -12,5 +12,7 @@ struct IsMemberFunctionPointerHelper<VariableType_ ClassType_::*>
 }
 template<typename Type_>
 struct IsMemberFunctionPointer
-    : ::coim::detail::IsMemberFunctionPointer<::coim::remove_cv_t<Type_>>{};
+    : ::coim::detail::IsMemberFunctionPointerHelper<
+        ::coim::remove_cv_t<Type_>
+    >{};
 }
