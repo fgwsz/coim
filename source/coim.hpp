@@ -44,6 +44,7 @@
 #include "coim/bool_constant.hpp"
 #include "coim/conditional_t.hpp"
 #include "coim/decay_t.hpp"
+#include "coim/declval.hpp"
 #include "coim/enable_if_t.hpp"
 #include "coim/extent_v.hpp"
 #include "coim/false_type.hpp"
