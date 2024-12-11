@@ -1,91 +1,91 @@
 #pragma once
-#include <coim/AddConst.hpp>
-#include <coim/AddCv.hpp>
-#include <coim/AddLvalueReference.hpp>
-#include <coim/AddPointer.hpp>
-#include <coim/AddRvalueReference.hpp>
-#include <coim/AddVolatile.hpp>
-#include <coim/Conditional.hpp>
-#include <coim/Conjunction.hpp>
-#include <coim/Decay.hpp>
-#include <coim/Disjunction.hpp>
-#include <coim/EnableIf.hpp>
-#include <coim/Extent.hpp>
-#include <coim/IntegerSequence.hpp>
-#include <coim/IntegralConstant.hpp>
-#include <coim/IsArray.hpp>
-#include <coim/IsBoundedArray.hpp>
-#include <coim/IsConst.hpp>
-#include <coim/IsFunction.hpp>
-#include <coim/IsLvalueReference.hpp>
-#include <coim/IsMemberFunctionPointer.hpp>
-#include <coim/IsMemberObjectPointer.hpp>
-#include <coim/IsMemberPointer.hpp>
-#include <coim/IsPointer.hpp>
-#include <coim/IsReference.hpp>
-#include <coim/IsRvalueReference.hpp>
-#include <coim/IsSame.hpp>
-#include <coim/IsUnboundedArray.hpp>
-#include <coim/IsVoid.hpp>
-#include <coim/IsVolatile.hpp>
-#include <coim/Negation.hpp>
-#include <coim/Rank.hpp>
-#include <coim/RemoveAllExtents.hpp>
-#include <coim/RemoveConst.hpp>
-#include <coim/RemoveCv.hpp>
-#include <coim/RemoveCvref.hpp>
-#include <coim/RemoveExtent.hpp>
-#include <coim/RemovePointer.hpp>
-#include <coim/RemoveReference.hpp>
-#include <coim/RemoveVolatile.hpp>
-#include <coim/TypeIdentity.hpp>
-#include <coim/add_const_t.hpp>
-#include <coim/add_cv_t.hpp>
-#include <coim/add_lvalue_reference_t.hpp>
-#include <coim/add_pointer_t.hpp>
-#include <coim/add_rvalue_reference_t.hpp>
-#include <coim/add_volatile_t.hpp>
-#include <coim/bool_constant.hpp>
-#include <coim/conditional_t.hpp>
-#include <coim/conjunction_v.hpp>
-#include <coim/decay_t.hpp>
-#include <coim/declval.hpp>
-#include <coim/disjunction_v.hpp>
-#include <coim/enable_if_t.hpp>
-#include <coim/extent_v.hpp>
-#include <coim/false_type.hpp>
-#include <coim/forward.hpp>
-#include <coim/index_sequence_for.hpp>
-#include <coim/index_sequence.hpp>
-#include <coim/is_array_v.hpp>
-#include <coim/is_bounded_array_v.hpp>
-#include <coim/is_const_v.hpp>
-#include <coim/is_function_v.hpp>
-#include <coim/is_lvalue_reference_v.hpp>
-#include <coim/is_member_function_pointer_v.hpp>
-#include <coim/is_member_object_pointer_v.hpp>
-#include <coim/is_member_pointer_v.hpp>
-#include <coim/is_pointer_v.hpp>
-#include <coim/is_reference_v.hpp>
-#include <coim/is_rvalue_reference_v.hpp>
-#include <coim/is_same_v.hpp>
-#include <coim/is_unbounded_array_v.hpp>
-#include <coim/is_void_t.hpp>
-#include <coim/is_volatile_v.hpp>
-#include <coim/make_index_sequence.hpp>
-#include <coim/make_integer_sequence.hpp>
-#include <coim/move.hpp>
-#include <coim/negation_v.hpp>
-#include <coim/rank_v.hpp>
-#include <coim/remove_all_extents_t.hpp>
-#include <coim/remove_const_t.hpp>
-#include <coim/remove_cvref_t.hpp>
-#include <coim/remove_cv_t.hpp>
-#include <coim/remove_extent_t.hpp>
-#include <coim/remove_pointer_t.hpp>
-#include <coim/remove_reference_t.hpp>
-#include <coim/remove_volatile_t.hpp>
-#include <coim/size_t.hpp>
-#include <coim/true_type.hpp>
-#include <coim/type_identity_t.hpp>
-#include <coim/void_t.hpp>
+#include<coim/AddConst.hpp>
+#include<coim/AddCv.hpp>
+#include<coim/AddLvalueReference.hpp>
+#include<coim/AddPointer.hpp>
+#include<coim/AddRvalueReference.hpp>
+#include<coim/AddVolatile.hpp>
+#include<coim/Conditional.hpp>
+#include<coim/Conjunction.hpp>
+#include<coim/Decay.hpp>
+#include<coim/Disjunction.hpp>
+#include<coim/EnableIf.hpp>
+#include<coim/Extent.hpp>
+#include<coim/IntegerSequence.hpp>
+#include<coim/IntegralConstant.hpp>
+#include<coim/IsArray.hpp>
+#include<coim/IsBoundedArray.hpp>
+#include<coim/IsConst.hpp>
+#include<coim/IsFunction.hpp>
+#include<coim/IsLvalueReference.hpp>
+#include<coim/IsMemberFunctionPointer.hpp>
+#include<coim/IsMemberObjectPointer.hpp>
+#include<coim/IsMemberPointer.hpp>
+#include<coim/IsPointer.hpp>
+#include<coim/IsReference.hpp>
+#include<coim/IsRvalueReference.hpp>
+#include<coim/IsSame.hpp>
+#include<coim/IsUnboundedArray.hpp>
+#include<coim/IsVoid.hpp>
+#include<coim/IsVolatile.hpp>
+#include<coim/Negation.hpp>
+#include<coim/Rank.hpp>
+#include<coim/RemoveAllExtents.hpp>
+#include<coim/RemoveConst.hpp>
+#include<coim/RemoveCv.hpp>
+#include<coim/RemoveCvref.hpp>
+#include<coim/RemoveExtent.hpp>
+#include<coim/RemovePointer.hpp>
+#include<coim/RemoveReference.hpp>
+#include<coim/RemoveVolatile.hpp>
+#include<coim/TypeIdentity.hpp>
+#include<coim/add_const_t.hpp>
+#include<coim/add_cv_t.hpp>
+#include<coim/add_lvalue_reference_t.hpp>
+#include<coim/add_pointer_t.hpp>
+#include<coim/add_rvalue_reference_t.hpp>
+#include<coim/add_volatile_t.hpp>
+#include<coim/bool_constant.hpp>
+#include<coim/conditional_t.hpp>
+#include<coim/conjunction_v.hpp>
+#include<coim/decay_t.hpp>
+#include<coim/declval.hpp>
+#include<coim/disjunction_v.hpp>
+#include<coim/enable_if_t.hpp>
+#include<coim/extent_v.hpp>
+#include<coim/false_type.hpp>
+#include<coim/forward.hpp>
+#include<coim/index_sequence_for.hpp>
+#include<coim/index_sequence.hpp>
+#include<coim/is_array_v.hpp>
+#include<coim/is_bounded_array_v.hpp>
+#include<coim/is_const_v.hpp>
+#include<coim/is_function_v.hpp>
+#include<coim/is_lvalue_reference_v.hpp>
+#include<coim/is_member_function_pointer_v.hpp>
+#include<coim/is_member_object_pointer_v.hpp>
+#include<coim/is_member_pointer_v.hpp>
+#include<coim/is_pointer_v.hpp>
+#include<coim/is_reference_v.hpp>
+#include<coim/is_rvalue_reference_v.hpp>
+#include<coim/is_same_v.hpp>
+#include<coim/is_unbounded_array_v.hpp>
+#include<coim/is_void_t.hpp>
+#include<coim/is_volatile_v.hpp>
+#include<coim/make_index_sequence.hpp>
+#include<coim/make_integer_sequence.hpp>
+#include<coim/move.hpp>
+#include<coim/negation_v.hpp>
+#include<coim/rank_v.hpp>
+#include<coim/remove_all_extents_t.hpp>
+#include<coim/remove_const_t.hpp>
+#include<coim/remove_cvref_t.hpp>
+#include<coim/remove_cv_t.hpp>
+#include<coim/remove_extent_t.hpp>
+#include<coim/remove_pointer_t.hpp>
+#include<coim/remove_reference_t.hpp>
+#include<coim/remove_volatile_t.hpp>
+#include<coim/size_t.hpp>
+#include<coim/true_type.hpp>
+#include<coim/type_identity_t.hpp>
+#include<coim/void_t.hpp>

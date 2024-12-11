@@ -20,10 +20,10 @@ lower_sorted=$(echo "$lower_files" | sort)
 echo "#pragma once" >> coim.hpp
 # 添加大写开头的文件
 while read -r file; do
-    echo "#include <$file>" >> coim.hpp
+    echo "#include<$file>" >> coim.hpp
 done <<< "$upper_sorted"
 # 添加小写开头的文件
 while read -r file; do
-    echo "#include <$file>" >> coim.hpp
+    echo "#include<$file>" >> coim.hpp
 done <<< "$lower_sorted"
 echo "操作完成，coim.hpp已更新"
