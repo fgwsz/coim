@@ -14,6 +14,7 @@
 #include<coim/IntegerSequence.hpp>
 #include<coim/IntegralConstant.hpp>
 #include<coim/IsArray.hpp>
+#include<coim/IsBaseOf.hpp>
 #include<coim/IsBoundedArray.hpp>
 #include<coim/IsConst.hpp>
 #include<coim/IsFunction.hpp>
@@ -58,6 +59,7 @@
 #include<coim/index_sequence_for.hpp>
 #include<coim/index_sequence.hpp>
 #include<coim/is_array_v.hpp>
+#include<coim/is_base_of_v.hpp>
 #include<coim/is_bounded_array_v.hpp>
 #include<coim/is_const_v.hpp>
 #include<coim/is_function_v.hpp>
