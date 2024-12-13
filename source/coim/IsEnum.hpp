@@ -6,6 +6,7 @@
 #include<coim/is_pointer_v.hpp>
 #include<coim/is_member_pointer_v.hpp>
 #include<coim/is_fundamental_v.hpp>
+#include<coim/true_type.hpp>
 namespace coim{
 template<typename Type_>
 struct IsEnum: ::coim::false_type{};
