@@ -7,7 +7,7 @@ struct IsIntegral: ::coim::bool_constant<
         //Type_*=>Type_ isn't reference
         reinterpret_cast<Type_>(value_);//Type_ isn't class
         function_(0);//Type_ isn't enum
-        pointer_+value_;//Types_ isn't floating ponint
+        pointer_+value_;//Types_ isn't floating point
     }
 >{};
 }
