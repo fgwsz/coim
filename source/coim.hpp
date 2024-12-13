@@ -24,6 +24,7 @@
 #include<coim/IsMemberObjectPointer.hpp>
 #include<coim/IsMemberPointer.hpp>
 #include<coim/IsNothrowConvertible.hpp>
+#include<coim/IsNullPointer.hpp>
 #include<coim/IsPointer.hpp>
 #include<coim/IsReference.hpp>
 #include<coim/IsRvalueReference.hpp>
@@ -71,6 +72,7 @@
 #include<coim/is_member_object_pointer_v.hpp>
 #include<coim/is_member_pointer_v.hpp>
 #include<coim/is_nothrow_convertible_v.hpp>
+#include<coim/is_null_pointer_v.hpp>
 #include<coim/is_pointer_v.hpp>
 #include<coim/is_reference_v.hpp>
 #include<coim/is_rvalue_reference_v.hpp>
@@ -82,6 +84,7 @@
 #include<coim/make_integer_sequence.hpp>
 #include<coim/move.hpp>
 #include<coim/negation_v.hpp>
+#include<coim/nullptr_t.hpp>
 #include<coim/rank_v.hpp>
 #include<coim/remove_all_extents_t.hpp>
 #include<coim/remove_const_t.hpp>

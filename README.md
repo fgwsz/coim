@@ -2,7 +2,6 @@
 `C++`模板元编程库.  
 TODO:  
 ```txt
-is_null_pointer
 is_integral
 is_floating_point
 is_enum
