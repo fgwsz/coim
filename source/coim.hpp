@@ -20,7 +20,6 @@
 #include<coim/IsCompound.hpp>
 #include<coim/IsConst.hpp>
 #include<coim/IsConvertible.hpp>
-#include<coim/IsEmpty.hpp>
 #include<coim/IsEnum.hpp>
 #include<coim/IsFloatingPoint.hpp>
 #include<coim/IsFunction.hpp>
