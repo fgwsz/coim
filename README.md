@@ -7,6 +7,7 @@
 [o] ::coim::AddPointer
 [o] ::coim::AddRvalueReference
 [o] ::coim::AddVolatile
+[o] ::coim::CommonType
 [o] ::coim::Conditional
 [o] ::coim::Conjunction
 [o] ::coim::Decay
@@ -40,7 +41,9 @@
 [o] ::coim::IsRvalueReference
 [o] ::coim::IsSame
 [o] ::coim::IsScalar
+[o] ::coim::IsSigned
 [o] ::coim::IsUnboundedArray
+[o] ::coim::IsUnsigned
 [o] ::coim::IsVoid
 [o] ::coim::IsVolatile
 [o] ::coim::Negation
@@ -61,6 +64,7 @@
 [o] ::coim::add_rvalue_reference_t
 [o] ::coim::add_volatile_t
 [o] ::coim::bool_constant
+[o] ::coim::common_type_t
 [o] ::coim::conditional_t
 [o] ::coim::conjunction_v
 [o] ::coim::decay_t
@@ -97,7 +101,9 @@
 [o] ::coim::is_rvalue_reference_v
 [o] ::coim::is_same_v
 [o] ::coim::is_scalar_v
+[o] ::coim::is_signed_v
 [o] ::coim::is_unbounded_array_v
+[o] ::coim::is_unsigned_v
 [o] ::coim::is_void_v
 [o] ::coim::is_volatile_v
 [o] ::coim::make_index_sequence
@@ -119,14 +125,8 @@
 [o] ::coim::type_identity_t
 [o] ::coim::void_t
 // TODO
-[x] ::coim::IsSigned
-[x] ::coim::IsUnsigned
 [x] ::coim::MakeSigned
 [x] ::coim::MakeUnsigned
-[x] ::coim::CommonType
-[x] ::coim::is_signed_v
-[x] ::coim::is_unsigned_v
 [x] ::coim::make_signed_t
 [x] ::coim::make_unsigned_t
-[x] ::coim::common_type_t
 ```

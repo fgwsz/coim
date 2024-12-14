@@ -5,6 +5,7 @@
 #include<coim/AddPointer.hpp>
 #include<coim/AddRvalueReference.hpp>
 #include<coim/AddVolatile.hpp>
+#include<coim/CommonType.hpp>
 #include<coim/Conditional.hpp>
 #include<coim/Conjunction.hpp>
 #include<coim/Decay.hpp>
@@ -38,7 +39,9 @@
 #include<coim/IsRvalueReference.hpp>
 #include<coim/IsSame.hpp>
 #include<coim/IsScalar.hpp>
+#include<coim/IsSigned.hpp>
 #include<coim/IsUnboundedArray.hpp>
+#include<coim/IsUnsigned.hpp>
 #include<coim/IsVoid.hpp>
 #include<coim/IsVolatile.hpp>
 #include<coim/Negation.hpp>
@@ -59,6 +62,7 @@
 #include<coim/add_rvalue_reference_t.hpp>
 #include<coim/add_volatile_t.hpp>
 #include<coim/bool_constant.hpp>
+#include<coim/common_type_t.hpp>
 #include<coim/conditional_t.hpp>
 #include<coim/conjunction_v.hpp>
 #include<coim/decay_t.hpp>
@@ -95,7 +99,9 @@
 #include<coim/is_rvalue_reference_v.hpp>
 #include<coim/is_same_v.hpp>
 #include<coim/is_scalar_v.hpp>
+#include<coim/is_signed_v.hpp>
 #include<coim/is_unbounded_array_v.hpp>
+#include<coim/is_unsigned_v.hpp>
 #include<coim/is_void_v.hpp>
 #include<coim/is_volatile_v.hpp>
 #include<coim/make_index_sequence.hpp>
