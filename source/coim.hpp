@@ -5,6 +5,8 @@
 #include<coim/AddPointer.hpp>
 #include<coim/AddRvalueReference.hpp>
 #include<coim/AddVolatile.hpp>
+#include<coim/COIM_CONCAT.hpp>
+#include<coim/COIM_STATIC_CHECK.hpp>
 #include<coim/CommonType.hpp>
 #include<coim/Conditional.hpp>
 #include<coim/Conjunction.hpp>
